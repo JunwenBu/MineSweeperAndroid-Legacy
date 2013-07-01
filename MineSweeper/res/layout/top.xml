@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/gameInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newGameButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/default_game_info" />
+
+    <ImageButton
+        android:id="@+id/newGameButton"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:onClick="startNewGame"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/happy"
+        android:contentDescription="@string/button_description" />
+
+    <ImageView
+        android:id="@+id/flagImageView"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/newGameButton"
+        android:contentDescription="@string/flag_description"
+        android:src="@drawable/flag_red" />
+
+    <TextView
+        android:id="@+id/flagNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/flagImageView"
+        android:layout_toRightOf="@+id/flagImageView"
+        android:text="@string/flag" />
+
+</RelativeLayout>
