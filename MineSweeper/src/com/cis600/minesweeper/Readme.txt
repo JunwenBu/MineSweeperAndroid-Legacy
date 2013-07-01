@@ -1,6 +1,6 @@
 Requirements:
 
-Write an iPhone application that implements the popular game "Mine Sweeper". 
+Write an application that implements the popular game "Mine Sweeper". 
 
 use a 16 x 16 game grid for this assignment (later, you'll make the game grid user-configurable). 
 
