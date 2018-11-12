@@ -1,2 +1,2 @@
-HW6ofMoApp
+Mine Sweeper in Java
 ==========
